@@ -14,6 +14,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "ykartal2/terraform-aws-docker-instance/aws"
-    key_name = "firstkey"
+    key_name = "key"
 }
 ```
